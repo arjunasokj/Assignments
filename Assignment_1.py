@@ -62,8 +62,6 @@ colour = ['blue', 'orange', 'red', 'green']
 histleg = ['China 2014-2015', 'China 2015-2016']
 alpha = [1, 0.6]
 
-
-
 # Line Plot of AQI of Beijing and Shanghai during different months
 plt.figure(figsize = (12, 8), dpi = 144)
 plot(xx,yy,zz)
@@ -111,8 +109,3 @@ boxplot(3, dd)
 boxplot(4, ee)
 plt.savefig('Boxplot.jpg')
 plt.show()
-
-
-
-
-
